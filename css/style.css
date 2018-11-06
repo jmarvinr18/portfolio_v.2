@@ -1,0 +1,567 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(../images/Zebra-3D-Grey-Seamless-Pattern-For-Website-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="column-here-"] {
+    float: left;
+    /*padding: 10px;*/
+}
+
+
+[class*="column-here-"] {
+    width: 100%;
+}
+
+
+/* For tablets: ______________________________________________________________________________________*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+/* For tablets: ______________________________________________________________________________________*/
+
+
+    .column-here-s-1 {width: 8.33%;}
+    .column-here-s-2 {width: 16.66%;}
+    .column-here-s-3 {width: 25%;}
+    .column-here-s-4 {width: 33.33%;}
+    .column-here-s-5 {width: 41.66%;}
+    .column-here-s-6 {width: 50%;}
+    .column-here-s-7 {width: 58.33%;}
+    .column-here-s-8 {width: 66.66%;}
+    .column-here-s-9 {width: 75%;}
+    .column-here-s-10 {width: 83.33%;}
+    .column-here-s-11 {width: 91.66%;}
+    .column-here-s-12 {width: 100%;}
+}
+
+/* For desktop: __________________________________________________________________________________________*/
+
+@media only screen and (min-width: 961px) and (max-width: 2000px){
+
+/* For desktop: __________________________________________________________________________________________*/
+
+.header{
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+}
+
+.center-header{
+    background-image: url(../images/paint_splatter_by_wmaltbyart-d5whaev.jpg);
+}
+.row-top{
+    height: 50px;
+    color: white;
+}
+
+.slogan{
+    text-align: right;
+}
+.contact-us{
+    text-align: left;
+
+}
+
+.address-details{
+    text-align: left;
+}    
+
+.address{
+    
+}
+
+.navbar-center{
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.navigation > ul > li {
+display: inline-block;
+/*margin-top: 40px;*/
+/*margin-left: 2px;*/
+padding: 5px;
+background-color: grey;
+
+}
+
+
+.navigation > ul > li > a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+
+.membership > a > li{
+    display: inline-block;
+    color: white;
+
+}
+
+.left-row-top{
+
+    /*background-color: black;*/
+    text-align: center;
+    color: white
+}
+
+.right-row-top{
+
+    text-align: center;
+    color: white
+}
+
+
+.center-row-top{
+   text-align: center;
+   color: black
+   border-right: 2px solid white;
+
+}
+
+.logo > img{
+    height: 100px;
+    float: right;
+    /*margin-right: 15px;*/
+    /*margin-top: 10px;*/
+
+
+}
+
+.border-line{
+    margin: 15px;
+    height: 10px;
+    background-color: black;
+}
+
+                                                                                                                                                                                                                                                                                                                        
+/*container-demo------------------------------------------------------------------------------*/
+
+
+
+.container-demo{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+
+
+.left-container{
+
+    
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right-container{
+
+    
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#demo{
+
+
+
+}
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+
+
+      width: 100%;
+      height: 300px;
+
+}
+
+
+.img-slides{
+       height: 100%;
+       width: 100%; 
+
+
+}
+
+/*container-items------------------------------------------------------------------------------*/
+
+
+.container-items{
+
+    min-height: auto;
+    min-width: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.container-items > h5{
+
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin: 15px 0 0 0px;
+    color: #CC5803;
+
+  }  
+
+  .border-cat{
+    display: block;
+    /*margin-top: 20px;*/
+    font-size: 100%;
+    border: 3px solid #DCDEE3;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+.main-items{
+
+    height: 50%;
+    background-color: #D3CDD7;
+    margin-top: 10px;
+    
+
+}
+
+.left-main > img{
+    /*border: 1px solid black;*/
+    height: 100%;
+    width: 100%;
+    /*background-image: url(../images/tumblers.jpg);*/
+/
+
+}
+
+.center-main{
+    /*background-color: #736F72;*/
+    height: 50%;
+    /*padding: 10px;*/
+
+    /*border: 1px solid black;*/
+}
+
+
+
+.item-pix{
+    
+    margin-left: 10px;
+}
+
+.item-pix > img{
+    height: 160px;
+    width: 150px;
+    
+    /*margin: 5px 5px 5px 5px;*/
+  
+}
+
+.item-pix > ul{
+    margin-left: 7px;
+}
+
+.item-pix > ul > li > img{
+    height: 160px;
+    width: 150px;
+    
+    /*margin: 3px 0px 0px 5px;*/
+
+}
+
+.item-pix > ul > li > img:hover {
+    box-shadow: 0 0 30px 1px rgba(0, 140, 186, 1);
+}
+
+.item-pix > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+
+
+.container-img {
+    position: relative;
+    /*wid th: 50%;*/
+}
+
+.img-thumbnail {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+  background-color: blue;
+}
+
+.container-img:hover .image {
+  opacity: 0.5;
+}
+
+.container-img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #D3CDD7;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    /*width: 50%;*/
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/*categories------------------------------------------------------------------------------*/
+
+.categories{
+
+    min-height: 100px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.categories-items{
+    min-height: 100px;
+    background-color: white;
+    /*margin: 10px 10px 10px 10px;*/
+    margin-bottom: 0;
+}
+.categories-items > .left-categories > ul > a > li{
+    list-style: none;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(220,222,227,.7);
+
+
+}
+
+.left-categories{
+    min-height: 100%;
+}
+.left-categories > ul > a{
+    
+
+}
+
+.categories-items > .center-categories > ul > a > li{
+    list-style: none;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(220,222,227,.7);
+
+}
+
+.center-categories > .caption > img{
+    height: 100%;
+    width: 100%;
+}
+
+.categories-items > ul {
+    width: 200px;
+    padding: 20px;
+}
+
+.categories-items a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.categories-items a:hover {
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+.categories-items a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.right-categories > ul > li{
+    list-style: none;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(220,222,227,.7);
+    border-top: 1px solid rgba(220,222,227,.7);
+    border-left: 1px solid rgba(220,222,227,.7);
+    border-right: 1px solid rgba(220,222,227,.7);
+
+    display: inline-block;
+    padding: 0;
+
+}
+
+.right-categories > ul > li > img{
+    height: 160px;
+    width: 150px;
+    padding: 0;
+    margin: 10px;
+}
+
+
+
+.center-categories{
+
+    height: 390px;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.center-categories > .caption > img{
+     max-width: 100%;
+     min-height: 390px;
+
+}
+.caption:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+background: -webkit-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
+background: -o-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
+background: -ms-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
+background: -moz-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
+background: linear-gradient(170deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
+
+
+}
+
+
+
+/*footer------------------------------------------------------------------------------*/
+
+.footer{
+    height: 300px;
+    /*background-color: black;*/
+    background-image: url(../images/paint_splatter_by_wmaltbyart-d5whaev.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+
+}
+
+
+    .column-here-1 {width: 8.33%;}
+    .column-here-2 {width: 16.66%;}
+    .column-here-3 {width: 25%;}
+    .column-here-4 {width: 33.33%;}
+    .column-here-5 {width: 41.66%;}
+    .column-here-6 {width: 50%;}
+    .column-here-7 {width: 58.33%;}
+    .column-here-8 {width: 66.66%;}
+    .column-here-9 {width: 75%;}
+    .column-here-10 {width: 83.33%;}
+    .column-here-11 {width: 91.66%;}
+    .column-here-12 {width: 100%;}
+
+
+}
+
+
+
