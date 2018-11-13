@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Hind', sans-serif;
 
 }
 
@@ -12,11 +12,29 @@
 	max-width: 100%;
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
 
-.navbar a{
+ul#nav{
+
+	text-align: center;
+	list-style: none;
+	padding-right: 25px;
+
+}
+
+#nav li{
+	display: inline-block;
+}
+
+.nav-item a{
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
+	
+	/*padding-left: 25px;*/
+	text-decoration: none !important;
 }
 
 
@@ -38,27 +56,42 @@
 .container-fluid{
 
 }
+
+.card-body #wk{
+	text-align: center;
+}
+
 #wk {
-  color: white;
-  font-size: 30px;
-  text-align: center;
+  color: #3b5999;
+  font-size: 15px;
+  padding-right: 20px;
+
 
 }
 
 #sk {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  margin: 0;
+  color: #e4405f;
+  font-size: 15px;
+  padding-right: 20px;
+  
 }
 
 #cp {
-  color: white;
-  font-size: 30px;
-
-  text-align: center;
+  color: #0077B5;
+  font-size: 15px;
 
 }
+
+
+
+#card-title{
+	font-size: 20px;
+}
+
+#career-name{
+	font-size: 10px;
+}
+
 
 .fa-user:hover {
   color: #eee;
@@ -70,6 +103,7 @@
   min-height: 30%;
   font-size: 10px;
   width: 100%;
+  margin-top: 100px;
 
 }
 
@@ -84,6 +118,14 @@
 
 .card-body{
 
+}
+
+
+#work-ex{
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500px;
 }
 
 .education > .row{
@@ -102,24 +144,58 @@
 
 }
 
+#jobtitle{
+	font-size: 20px;
+}
+
 /*projects------------------------------------*/
 .projects{
 	width: 100%;
 	min-height: 500px;
-
 	background-color: #FCFCFC;
+	font-size: 28px;
+	text-align: center;
+	font-weight: 500px;
+}
+
+
+.projects img{
+
 
 }
-.projects h2{
-	text-align: center;
+
+.separator{
+	border-top: 1px solid #D3D5D6;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 50px;
+	margin-right: 50px;
 }
 
 .projects .row{
 }
 
-.card-proj-1{
-	width: 18rem;
-	float: none;
+.project-name{
+	font-weight: bolder;
+}
+
+img{
+	height: 500px;
+	width: 700px;
+
+}
+
+.project-details{
+	text-align: left;
+}
+
+.description-project{
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.project-details small{
+	font-size: 15px;
 }
 
 .card-proj-2{
@@ -128,6 +204,13 @@
 
 }
 
+.card-proj-2 p{
+	font-size: 20px;
+}
+
+.card-proj-3 p{
+	font-size: 20px;
+}
 .card-proj-3{
 	width: 18rem;
 	float: none;
@@ -140,8 +223,10 @@
 
 .skills{
 	width: 100%;
-
 	background-color: #5AD2F4;
+	font-size: 22px;
+	font-weight: 500; 
+	text-align: center;
 }
 .progress{
 	margin: 10px;
@@ -158,9 +243,6 @@
 	text-align: center;
 }
 
-.skills h2{
-	text-align: center;
-}
 
 .git{
 
@@ -183,6 +265,58 @@
 .js{
 
 	width: 20%
+}
+
+#css3{
+	background-color: #563d7c;
+}
+
+#html5{
+
+		background-color: #e34c26;
+
+}
+
+#js{
+
+	background-color: #f1e05a;
+
+}
+
+#php{
+
+	background-color: #4F5D95;
+}
+.php{
+
+	width: 55%
+}
+
+#git{
+	background-color: grey;
+}
+
+.js{
+
+	width: 20%
+}
+
+.fa-js{
+	color: #f1e05a;
+}
+
+.fa-html5{
+	color: #e34c26;
+}
+
+.fa-css3-alt{
+	color: #563d7c;
+
+}
+
+.fa-php{
+
+	color: #4F5D95;
 }
 
 
@@ -209,9 +343,14 @@
 }
 
 
-.navbar a{
+
+.nav-item a{
 	color: white;
 	font-size: 20px;
+	padding-left: 25px;
+	text-decoration: none !important;
+
+
 }
 
 
@@ -260,37 +399,25 @@ background: linear-gradient(90deg, rgba(3,2,3,0.8015581232492998) 0%, rgba(255,0
   opacity: 1;
 }
 
+
 #wk {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 90%;
-  left: 16%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #3b5999;
+  font-size: 10px;
+  padding-right: 10px;
+
 }
 
 #sk {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 90%;
-  left: 39%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #e4405f;
+  font-size: 10px;
+  padding-right: 10px;
+
 }
 
 #cp {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 90%;
-  left: 58%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #0077B5;
+  font-size: 10px;
+
 }
 
 .fa-user:hover {
@@ -300,15 +427,24 @@ background: linear-gradient(90deg, rgba(3,2,3,0.8015581232492998) 0%, rgba(255,0
 .card-container{
 
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 35%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: left;
   width: 60%;
-  min-height: 20%;
-  font-size: 15px;
+  height: 60%;
+  font-size: 10px;
+  line-height: 10px;
+}
 
+
+#card-title{
+	font-size: 20px;
+}
+
+#career-name{
+	font-size: 10px;
 }
 
 .card-body .image{
@@ -411,6 +547,59 @@ display: none;
 
 	width: 20%
 }
+
+#css3{
+	background-color: #563d7c;
+}
+
+#html5{
+
+		background-color: #e34c26;
+
+}
+
+#js{
+
+	background-color: #f1e05a;
+
+}
+
+#php{
+
+	background-color: #4F5D95;
+}
+.php{
+
+	width: 55%
+}
+
+#git{
+	background-color: grey;
+}
+
+.js{
+
+	width: 20%
+}
+
+.fa-js{
+	color: #f1e05a;
+}
+
+.fa-html5{
+	color: #e34c26;
+}
+
+.fa-css3-alt{
+	color: #563d7c;
+
+}
+
+.fa-php{
+
+	color: #4F5D95;
+}
+
 }
 
 
@@ -427,9 +616,13 @@ display: none;
 
 }
 
-.navbar a{
+.nav-item a{
 	color: white;
 	font-size: 20px;
+	padding-left: 25px;
+	text-decoration: none !important;
+
+
 }
 
 
@@ -476,37 +669,35 @@ background: linear-gradient(90deg, rgba(3,2,3,0.8015581232492998) 0%, rgba(255,0
   opacity: 1;
 }
 
+
+
+#card-title{
+	font-size: 30px;
+}
+
+#career-name{
+	font-size: 15px;
+}
+
+
 #wk {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 70%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #3b5999;
+  font-size: 15px;
+  padding-right: 15px;
+
 }
 
 #sk {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 70%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #e4405f;
+  font-size: 15px;
+  padding-right: 15px;
+
 }
 
 #cp {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 70%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  color: #0077B5;
+  font-size: 15px;
+
 }
 
 .fa-user:hover {
@@ -551,7 +742,7 @@ display: none;
 /*projects------------------------------------*/
 .projects{
 	width: 100%;
-	min-height: 500px;
+	height: 170vh;
 	margin-top: 50px;
 	background-color: #FCFCFC;
 
@@ -587,6 +778,7 @@ display: none;
 .skills{
 	margin-top: 50px;
 	background-color: #5AD2F4;
+	height: 500px;
 }
 .progress{
 	margin: 30px;
@@ -618,15 +810,61 @@ display: none;
 
 .css3{
 
-	width: 50%
+	width: 50%;
+	
+}
+
+#css3{
+	background-color: #563d7c;
+}
+
+#html5{
+
+		background-color: #e34c26;
+
+}
+
+#js{
+
+	background-color: #f1e05a;
+
+}
+
+#php{
+
+	background-color: #4F5D95;
 }
 .php{
 
 	width: 55%
 }
 
+#git{
+	background-color: grey;
+}
+
 .js{
 
 	width: 20%
 }
+
+.fa-js{
+	color: #f1e05a;
+}
+
+.fa-html5{
+	color: #e34c26;
+}
+
+.fa-css3-alt{
+	color: #563d7c;
+
+}
+
+.fa-php{
+
+	color: #4F5D95;
+}
+
+
 }
