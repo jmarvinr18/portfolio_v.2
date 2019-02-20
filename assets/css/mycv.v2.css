@@ -151,7 +151,7 @@ ul#nav{
 /*projects------------------------------------*/
 .projects{
 	width: 100%;
-	min-height: 500px;
+	min-height: 900px;
 	background-color: #FCFCFC;
 	font-size: 28px;
 	text-align: center;
@@ -470,7 +470,7 @@ display: none;
 /*projects------------------------------------*/
 .projects{
 	width: 100%;
-	min-height: 500px;
+	min-height: 900px;
 
 	background-color: #FCFCFC;
 
@@ -742,7 +742,7 @@ display: none;
 /*projects------------------------------------*/
 .projects{
 	width: 100%;
-	height: 170vh;
+	height: 215vh;
 	margin-top: 50px;
 	background-color: #FCFCFC;
 
